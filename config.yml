@@ -1,0 +1,10 @@
+enabled: true
+
+cleanup:
+  interval: 5
+
+warnings:
+  enabled: true
+
+performance:
+  tps-protection: true
