@@ -1,0 +1,22 @@
+name: NovaLag
+main: com.novalag.NovaLag
+version: 1.0.0
+api-version: '1.21'
+
+commands:
+  novalag:
+    description: NovaLag main command
+    usage: /novalag
+
+permissions:
+  novalag.admin:
+    default: op
+
+  novalag.reload:
+    default: op
+
+  novalag.force:
+    default: op
+
+  novalag.stats:
+    default: op
