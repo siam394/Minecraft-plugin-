@@ -1,0 +1,22 @@
+name: NovaLag
+version: 1.0.0
+main: com.novalag.NovaLag
+api-version: "26.2"
+author: Siam
+description: Intelligent ClearLag plugin for Purpur 26.2
+
+commands:
+  novalag:
+    description: Main NovaLag command
+    aliases:
+      - lag
+      - clearlag
+    usage: /novalag
+    permission: novalag.use
+
+permissions:
+  novalag.use:
+    default: true
+
+  novalag.admin:
+    default: op
