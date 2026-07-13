@@ -1,0 +1,22 @@
+enabled: true
+
+cleanup:
+  interval: 10
+
+broadcast: true
+
+optimization:
+  auto: true
+  tps-threshold: 18.0
+
+protection:
+  named-mobs: true
+  villagers: true
+  tamed-pets: true
+  armor-stands: true
+  item-frames: true
+  paintings: true
+
+performance:
+  monitor: true
+  debug: false
