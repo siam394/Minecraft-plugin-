@@ -1,5 +1,6 @@
-package com.novalag;
+ package com.novalag;
 
+import com.novalag.command.NovaLagCommand;
 import com.novalag.manager.ConfigManager;
 import com.novalag.manager.MessageManager;
 import com.novalag.manager.TaskManager;
@@ -25,10 +26,14 @@ public final class NovaLag extends JavaPlugin {
 
         taskManager.startTasks();
 
+        if (getCommand("novalag") != null) {
+            getCommand("novalag").setExecutor(new NovaLagCommand(this));
+        }
+
         getLogger().info("================================");
         getLogger().info("NovaLag Enabled Successfully!");
-        getLogger().info("Java: 25");
-        getLogger().info("Purpur: 26.2");
+        getLogger().info("Java 25");
+        getLogger().info("Purpur 26.2");
         getLogger().info("================================");
     }
 
