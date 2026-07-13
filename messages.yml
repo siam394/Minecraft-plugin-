@@ -1,0 +1,11 @@
+prefix: "&bNovaLag &8» "
+
+reload: "&aConfiguration reloaded."
+
+cleanup:
+  removed: "&eRemoved %amount% dropped items."
+
+warnings:
+  "10-seconds": "&cItem cleanup in 10 seconds!"
+  "5-seconds": "&6Item cleanup in 5 seconds!"
+  "1-second": "&4Item cleanup in 1 second!"
