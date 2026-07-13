@@ -1,0 +1,23 @@
+prefix: "&8[&bNovaLag&8] "
+
+plugin:
+  enabled: "&aNovaLag has been enabled."
+  disabled: "&cNovaLag has been disabled."
+
+commands:
+  no-permission: "&cYou do not have permission."
+  reload: "&aConfiguration reloaded successfully."
+  unknown: "&cUnknown subcommand."
+
+cleanup:
+  warning-60: "&eGround items will be cleared in 60 seconds."
+  warning-30: "&eGround items will be cleared in 30 seconds."
+  warning-10: "&eGround items will be cleared in 10 seconds."
+  warning-5: "&cGround items will be cleared in 5 seconds."
+  complete: "&aCleanup complete. Removed %amount% entities."
+
+monitor:
+  tps: "&bTPS: &f%tps%"
+  mspt: "&bMSPT: &f%mspt%"
+  ram: "&bRAM: &f%ram%"
+  cpu: "&bCPU: &f%cpu%"
